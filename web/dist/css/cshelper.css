@@ -1,0 +1,148 @@
+/*	Customer Service Helper making 
+	@author Hyowon Choi
+*/
+
+.dialog {
+	box-shadow: 0px 1px 3px grey;
+	position: relative;
+	width: 400px;
+	border-radius: 20px;
+}
+
+.dialog-header {
+	border-radius: 20px 20px 0 0;
+	background-color: #f2f2f2;
+	height: 58px;
+}
+
+.dialog-header-text {
+	line-height: 58px;
+	width: 100%;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+}
+
+.btn-dialog-close {
+	position: absolute;
+	right: 20px;
+	top: 0;
+	line-height: 58px;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-decoration: none;
+	color: #AAAAAA;
+}
+
+.btn-dialog-close:hover,
+.btn-dialog-close:focus {
+	color: black;
+	text-decoration: none;
+}
+
+.dialog-body {
+	width: 100%;
+	border-radius: 0 0 20px 20px;
+	padding: 20px;
+}
+
+.approval-personal-info {
+	padding: 6px 12px;
+	font-weight: bold;
+}
+
+.fileContainer {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.fileContainer [type=file] {
+	cursor: inherit;
+	display: block;
+	font-size: 20px;
+	text-align: right;
+	opacity: 0;
+	top:0;
+	right: 0;
+}
+
+#files {
+	border : 1px dashed darkgray;
+	border-radius: 4px;
+	width: 100%;
+	height: 80px;
+}
+
+.file-contents {
+	border : 1px dashed darkgray;
+	border-radius: 4px;
+	width: 100%;
+	text-align: center;
+	padding: 30px;
+	position: absolute;
+	height: 80px;
+}
+
+#file-list {
+	display: none;
+	min-height: 23px;
+	height: auto;
+	width: 100%;
+	border : 1px solid darkgray;
+	margin-top:10px;
+	border-radius: 4px;
+	overflow-y: scroll;
+	height: 80px;
+}
+
+#file-list::-webkit-scrollbar { 
+	display: none; 
+}
+
+.file-name {
+	display: inline-block;
+	font-size: 17px;
+	vertical-align: middle;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	word-wrap: normal;
+	width: 200px;
+	overflow: hidden;
+}
+
+.file-content-wrapper{
+	padding: 15px 15px;
+	border-bottom: 1px dotted grey;
+}
+
+.file-content-wrapper:last-child {
+	border: 0;
+}
+
+.btn-delete-wrapper {
+	float:right;
+	display: inline-block;
+}
+
+.btn-delete-file {
+	border: 1px solid #f6a623;
+	border-radius: 5px;
+	padding: 2px 10px;
+}
+
+.star {
+	color:#f6a623;
+}
+
+.btn-sending {
+	font-weight: bold;
+	color: white;
+	background-color: #f6a623;
+	border: 0;
+	font-size: 18px;
+	text-align: center;
+	width : 100%;
+	height: 40px;
+}

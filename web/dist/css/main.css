@@ -1,0 +1,1059 @@
+@font-face {
+	font-family: BebasNeue;
+	src: url(../fonts/BebasNeue.otf) format('opentype'),
+    	url(../fonts/BebasNeue.ttf) format('truetype'),
+    	url(../fonts/BebasNeue.svg) format('svg');
+}
+
+html, body {
+	width: 100%;
+	margin: 0 auto;
+	font-family: "AppleSDGothic", "Nanum Barun Gothic", "Roboto", sans-serif;
+	overflow-x: hidden;
+}
+
+
+/* home CSS Settings
+ * @author k_ssun
+ */
+
+section {
+	height: 100%;
+	padding-top: 50px;
+}
+
+header {
+	width: 100%;
+	height: 107vh;
+	background-image: url("../img/main_bg.jpg");
+	background-size: cover;
+	background-position-x: 75%;
+	background-position-y: 33%;
+}
+
+.site-logo-wrapper{
+	padding: 32px 0 0 43px; 
+}
+
+.site-logo-wrapper span{
+	font-family: "BebasNeue", sans-serif;
+	font-size: 64px;
+	color: #f8e81c;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.site-logo-wrapper span.site-logo{
+	color: #ffffff;
+}
+
+.header-typo-and-download-btn{
+	font-family: "Roboto", sans-serif;
+  	font-size: 52px;
+  	line-height: 1.15;
+  	color: #ffffff;
+  	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  	margin: 250px 0 0 78px;
+}
+
+.header-heading{
+	max-width: 700px;
+}
+
+.download-btn-googleplay{
+	display: inline-block;
+	width: 200px;
+	height: 60px;
+	background-image: url("../img/googleplay_badge.png");
+	background-size: contain;
+	margin-top: 165px;
+}
+
+.download-btn-appstore{
+	display: inline-block;
+	width: 200px;
+	height: 60px;
+	background-image: url("../img/ios_badge.png");
+	background-size: contain;
+}
+
+.section-name {
+	font-size: 48px;
+	font-family: "BebasNeue", sans-serif;
+	text-align: center;
+	margin-bottom: 53px;
+}
+
+/* Pororot function CSS Settings
+ * @author hyowonChoi
+ */
+.pororot-info {
+	max-width: 1500px;
+}
+
+.pororot-area {
+	height:700px;
+	margin-bottom: 30px;
+}
+
+.word-area {
+	background-size: cover;
+	border:1px solid #CCC;
+	height:100%;
+	background-position-y: 47%;
+}
+
+.function-talk-game {
+	background-image: url('../img/function_img01.png');
+	background-size: cover;
+}
+
+.function-contents-content {
+	background-image: url('../img/function_img02.png');
+	background-size: cover;
+}
+
+.function-schedule-avartar {
+	background-image: url('../img/function_img03.png');
+	background-size: cover;
+}
+
+.function-timeline-community {
+	background-image: url('../img/function_img04.png');
+	background-size: cover;
+}
+
+.dialog {
+	display: inline-block;
+	font-family: "AppleSDGothic", sans-serif;
+	font-weight: 900;
+	font-size: 35px;
+	margin-top: 37px;
+	margin-left: 41px;
+}
+
+.dialog-english {
+	display: inline-block;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	font-size: 29px;
+	color : #9B9B9B;
+	margin-left: 10px;
+}
+
+.dialog-english-underneath {
+	display: block;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	font-size: 29px;
+	color : #9B9B9B;
+	margin-left: 41px;
+}
+
+.dialog-sub {
+	font-size: 23px;
+	font-family: "AppleSDGothic", sans-serif;
+	font-weight: bold;
+	margin: 0 0 5px;
+	margin-top: 2px;
+	margin-left: 41px;
+}
+
+#modal-qna .modal-title {
+	font-size: 24px;
+}
+
+#modal-qna .modal-body {
+	font-size: 24px;
+}
+
+#modal-notice .modal-title {
+	font-size: 24px;
+}
+
+#modal-notice .modal-body {
+	font-size: 24px;
+}
+
+.btn-modal-qna {
+	font-size: 19px;
+	font-weight: 500;
+	width: 128px;
+	height: 38px;
+	border: solid 1px #979797;
+    margin: 0px 5px;
+}
+
+.cs-info {
+	max-width: 1500px;
+}
+
+.btn-info {
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	width: 180px;
+	height: 50px;
+	border: 0;
+	margin: 0px 5px;
+	background-color: #302d68;
+}
+
+.btn-info:hover {
+	background-color: #4990e2;
+}
+
+.btn-wrapper {
+	text-align: center;
+	padding: 0;
+}
+
+.cs-item-wrapper {
+	font-size:24px;
+	border-top: 2px solid black;
+	margin-top: 40px;
+	padding: 0;
+}
+
+.cs-item {
+	width: 100%;
+	border-bottom: solid 1px black;
+	cursor: pointer;
+}
+
+.cs-notice-header {
+	display: inline-block;
+	color:  #4990e2;
+	padding: 47px 0px 47px 25px;
+	width: 16%;
+}
+
+.cs-notice-title {
+	display: inline-block;
+	padding-left: 25px;
+	width: 78%;
+	vertical-align: middle;
+}
+
+.cs-faq-header {
+	display: inline-block;
+	color:  #4990e2;
+	padding-left: 25px;
+	width: 16%;
+}
+
+.cs-faq-title {
+	display: inline-block;
+	padding: 47px 0px 47px 25px;
+	width: 78%;
+	vertical-align: middle;
+}
+
+.cs-faq-answer {
+	border-top: solid 1px black;
+	/* padding: 47px 0px; */
+	padding: 25px;
+	background-color: #f7f7f7;
+}
+
+.cs-faq-answer-header {
+	display: block;
+	color: #4a4a4a;
+	padding-left: 25px;
+}
+
+.cs-faq-answer-message {
+	display: block;
+	color: #4a4a4a;
+	padding-left: 25px;
+}
+
+.cs-qna-header {
+	display: inline-block;
+	color:  #4990e2;
+	width: 16%;
+	padding-left: 25px;
+}
+
+.cs-qna-title {
+	display: inline-block;
+	padding: 47px 0px 47px 25px;
+	width: 78%;
+	vertical-align: middle;
+}
+
+.cs-qna-answer {
+	border-top: solid 1px black;
+	padding: 47px 0px;
+	padding: 25px;
+	background-color: #f7f7f7;
+}
+
+.cs-qna-answer-header {
+	display: block;
+	color: #4a4a4a;
+	padding-left: 25px;
+}
+
+.cs-qna-answer-message {
+	display: block;
+	color: #4a4a4a;
+	padding-left: 25px;
+}
+
+.glyphicon {
+	float: right;
+	padding: 47px 0px;
+	margin-right: 20px;
+}
+
+.btn-writing {
+	float: right;
+	font-weight: bold;
+	color: #7b7b7b;
+	background-color: white;
+	border: solid 1px #979797;
+	font-size: 24px;
+	text-align: center;
+	width: 180px;
+	height: 50px;
+	margin: 40px 5px 0px 5px;
+}
+
+.contact-company-name-and-address{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 18px;
+}
+
+.contact-company-name{
+	display: inline-block;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.contact-address{
+	display: inline-block;
+}
+
+.contact-info-detail{
+ 	font-size: 24px;
+ 	font-weight: bold;
+}
+
+.contact-map {
+	width: 100%;
+	height: 600px;
+	transition: height 0.5s;
+	margin: 30px 0 0 0;
+}
+
+/* Hamburger Button CSS Settings
+ * @author Seunghwan Hong
+ */
+ .hamburger-wrapper {
+ 	position: fixed;
+ 	top: 20px;
+ 	right: 20px;
+ 	z-index: 10;
+	background-color: black;
+	text-shadow: 1px 1px 5px #807575;
+ }
+
+ .hamburger {
+ 	display: block;
+ 	position: relative;
+ 	overflow: hidden;
+ 	margin: 0;
+ 	padding: 0;
+ 	width: 96px;
+ 	height: 96px;
+ 	font-size: 0;
+ 	text-indent: -9999px;
+ 	box-shadow: none;
+ 	border-radius: none;
+ 	border: none;
+ 	cursor: pointer;
+ 	background: transparent;
+ 	transition: background 0.3s;
+ }
+
+ .hamburger:focus {
+ 	outline: none;
+ }
+
+ .hamburger span {
+ 	display: block;
+ 	position: absolute;
+ 	top: 44px;
+ 	left: 25px;
+ 	right: 25px;
+ 	height: 4px;
+ 	background: white;
+ }
+
+ .hamburger span::before {
+ 	top: -15px;
+ }
+
+ .hamburger span::after {
+ 	bottom: -15px;
+ }
+
+ .hamburger span::before,
+ .hamburger span::after {
+ 	position: absolute;
+ 	display: block;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 4px;
+ 	background-color: white;
+ 	content: "";
+ }
+
+ .hamburger span {
+ 	transition: background 0s 0.3s;
+ }
+
+ .hamburger span::before,
+ .hamburger span::after {
+ 	transition-duration: 0.3s, 0.3s;
+ 	transition-delay: 0.3s, 0s;
+ }
+
+ .hamburger span::before {
+ 	transition-property: top, transform;
+ }
+
+ .hamburger span::after {
+ 	transition-property: bottom, transform;
+ }
+
+ .hamburger.active {
+ 	z-index: 999;
+ }
+
+ .hamburger.active span {
+ 	background: none;
+ }
+
+ .hamburger.active span::before {
+ 	top: 0;
+ 	background: white;
+ 	transform: rotate(45deg);
+ }
+
+ .hamburger.active span::after {
+ 	bottom: 0;
+ 	background: white;
+ 	transform: rotate(-45deg);
+ }
+
+ .hamburger.active span::before,
+ .hamburger.active span::after {
+ 	transition-delay: 0s, 0.3s;
+ }
+
+ /* Hamburger Button CSS Settings End */
+
+/* Navigation CSS Settings
+ * @author Seunghwan Hong */
+
+.nav {
+	position: fixed;
+	width: 430px;
+	height: 100%;
+	right: -430px;
+	top: 0;
+	z-index: 5;
+	background: black;
+	padding: 150px 20px;
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	-webkit-transition: -webkit-transform .5s, visibility 0s .5s;
+	transition:  -webkit-transform .5s, visibility 0s .5s;
+}
+
+.nav.open {
+	-webkit-transform: translateX(-430px);
+	transform: translateX(-430px);
+	-webkit-transition: -webkit-transform .5s, visibility 0s .5s;
+	transition:  -webkit-transform .5s, visibility 0s .5s;
+}
+
+.nav ul {
+	padding-left: 40px;
+}
+
+.nav-normal {
+	color: #898989;
+	list-style-type: none;
+	font-size: 35px;
+	cursor: pointer;
+	transition: color .5s;
+	margin-bottom: 3px;
+}
+
+.nav-divider {
+	margin-bottom: 30px;
+	background-color: white;
+	height: 1px;
+	width: 48%;
+}
+.nav .nav-divider {
+    height: 1px;
+   	margin: 30px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+
+.nav-pororot {
+	color: #1E3269;
+	list-style-type: none;
+	font-size: 35px;
+	cursor: pointer;
+	transition: color .5s;
+}
+
+.nav-normal:hover {
+	color: white;
+	transition: color .5s;
+}
+
+.nav-pororot:hover {
+	color: #0A6EFF;
+	transition: color .5s;
+}
+
+.nav-contact {
+	display: inline-block;
+	width: 100%;
+    position: absolute;
+    font-size: 15px;
+   	margin: 0 40px;
+    bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.copyright {
+	color: #898989;
+}
+
+.copyright-JININSA {
+	font-family: "Roboto", sans-serif;
+	color: white;
+	font-weight: bold;  
+}
+
+.copyright-JININSA-link:hover {
+	text-decoration: none;
+}
+
+.wrapper {
+	opacity: 1;
+	transform: translateX(0);
+	-webkit-transform: translateX(0);
+	transition: transform .3s, visibility 0s .5s, opacity .3s;
+	-webkit-transition: -webkit-transform .3s, visibility 0s .5s, opacity .3s;
+}
+
+.wrapper.overwrapped {
+	opacity: 0.5;
+	transform: translateX(-215px);
+	-webkit-transform: translateX(-215px);
+	transition: transform .3s, visibility 0s .5s, opacity .3s;
+	-webkit-transition: -webkit-transform .3s, visibility 0s .5s, opacity .3s;
+}
+
+/* Navigation CSS Settings End */
+
+/* Customer Service Button CSS Settings
+ * @author Hyowon Choi
+ */
+
+
+.nav {
+	position: fixed;
+	width: 430px;
+	height: 100%;
+	right: -430px;
+	top: 0;
+	z-index: 5;
+	background: black;
+	padding: 150px 20px;
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	-webkit-transition: -webkit-transform .5s, visibility 0s .5s;
+	transition:  -webkit-transform .5s, visibility 0s .5s;
+}
+
+.nav.open {
+	-webkit-transform: translateX(-430px);
+	transform: translateX(-430px);
+	-webkit-transition: -webkit-transform .5s, visibility 0s .5s;
+	transition:  -webkit-transform .5s, visibility 0s .5s;
+}
+
+.nav ul {
+	padding-left: 40px;
+}
+
+.nav-normal {
+	color: #898989;
+	list-style-type: none;
+	font-size: 35px;
+	cursor: pointer;
+	transition: color .5s;
+	margin-bottom: 3px;
+}
+
+.nav-divider {
+	margin-bottom: 30px;
+	background-color: white;
+	height: 1px;
+	width: 48%;
+}
+.nav .nav-divider {
+    height: 1px;
+   	margin: 30px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+
+.nav-normal:hover {
+	color: white;
+	transition: color .5s;
+}
+
+
+@media all and (max-width: 1300px) {
+
+	.header-typo-and-download-btn{
+	  	margin: 140px 0 0 78px;
+	}
+
+}
+
+@media all and (max-width: 1024px) {
+	
+	.header-heading{
+		max-width: 800px;
+	}
+
+
+	.download-btn-googleplay{
+		margin-top: 340px;
+	}
+}
+
+@media all and (max-width: 991px) {
+
+	.function-contents {
+		padding-left : 15px;
+	}
+
+	.function-timeline {
+		padding-left : 15px;
+	}
+	.hamburger {
+		width: 48px;
+		height: 48px;
+	}
+
+	.hamburger span {
+		display: block;
+		position: absolute;
+		top: 22px;
+		left: 12.5px;
+		right: 12.5px;
+		height: 2px;
+		background: white;
+	}
+
+	.hamburger span::before {
+		top: -7.5px;
+		height: 2px;
+	}
+
+	.hamburger span::after {
+		bottom: -7.5px;
+		height: 2px;
+	}
+
+	.nav {
+		width: 100%;
+		right: -100%;
+		padding-top: 50px;
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%);
+	}
+
+	.nav.open {
+		-webkit-transform: translateX(-100%);
+		transform: translateX(-100%);
+	}
+
+	.contact-wrapper iframe {
+	    height: 300px;
+	}
+}
+
+@media all and (max-width: 790px) { 
+
+	.header-heading{
+		max-width: 500px;
+	}
+
+	.contact-map {
+		height: 400px;
+	}
+}
+@media all and (max-width: 731px) {
+
+	.glyphicon {
+    	display: inline;
+   		float: right;
+   		padding: 0;
+    	margin: 0;
+    	line-height: 60px;
+	}
+
+	.cs-item {
+		font-size: 16px;
+	}
+    
+	.cs-notice-title {
+		width: 78%;
+		padding: 0px 0px 0px 10px;
+	}
+
+	.cs-notice-header {
+		width: 16%;
+		padding: 20px 0px 20px 5px;
+	}
+    
+	.cs-faq-title {
+		display: inline-block;
+		padding: 0px 0px 0px 10px;
+		width: 78%;
+		vertical-align: middle;
+	}
+
+	.cs-faq-header {
+		padding: 20px 0px 20px 5px;
+		width: 16%;
+	}
+
+	.cs-faq-answer-header {
+		padding: 0;
+	}
+
+	.cs-faq-answer-message {
+		padding : 0;
+	}
+   
+	.cs-qna-title {
+		width: 78%;
+		display: inline-block;
+		padding: 0px 0px 0px 10px;
+		vertical-align: middle;
+	}
+
+	.cs-qna-header {
+    	width: 16%;
+    	padding: 20px 0px 20px 5px;
+	}
+
+	.cs-qna-answer-header {
+		padding: 0;
+	}
+    
+	.cs-qna-answer-message {
+		padding : 0;
+	}
+    
+}
+@media all and (max-width: 655px) { 
+
+	.btn-info {
+		width: 30%
+	}
+}
+
+@media all and (max-width: 630px) { 
+
+	.contact-company-name-and-address{
+		font-size: 16px;
+		text-align: left;
+	}
+
+	.contact-info-detail{
+	 	font-size: 16px;
+	}
+    
+	.contact-company-name{
+		display: block;
+	}
+
+	.contact-address-sub1{
+		display: block;
+	}
+}
+
+@media all and (max-width: 550px) { 
+	#home{
+		background-position: 68%;
+	}
+
+	.site-logo-wrapper span{
+		font-size: 36px;
+	}
+
+	.header-heading{
+		max-width: 250px;
+	}
+
+	.header-typo-and-download-btn{
+	  	font-size: 24px;
+	  	margin: 100px 0 0 37px;
+	}
+
+	.download-btn-googleplay{
+		margin-top: 200px;
+		display: inline-block;
+		background-image: url("../img/googleplay_badge_m.png");
+		background-repeat: no-repeat;
+		width: 140px;
+		height: 40px;
+	}
+
+	.download-btn-appstore{
+		display: inline-block;
+		background-image: url("../img/ios_badge_m.png");
+		background-repeat: no-repeat;
+		width: 140px;
+		height: 40px;
+	}
+
+	.section-name {
+		margin-bottom: 28px;
+	}
+
+	.pororot-area {
+		height:350px;
+		margin-bottom: 30px;
+	}
+
+	.word-area {
+		border: none;
+		background-position-y:0;
+	}
+	.dialog {
+		display: none;
+	}
+
+	.dialog-english {
+		display: none;
+	}
+
+	.dialog-sub {
+		display: none;
+	}
+
+	.dialog-english-underneath {
+		display: none;
+	}
+
+	.function-talk-game {
+		background-image: url('../img/function_m_img01.jpg');
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+
+	.function-contents-content {
+		background-image: url('../img/function_m_img02.jpg');
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+
+	.function-schedule-avartar {
+		background-image: url('../img/function_m_img03.jpg');
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+
+	.function-timeline-community {
+		background-image: url('../img/function_m_img04.jpg');
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+
+	.dialog-sub {
+		margin-right: 25px;
+	}
+
+	.dialog-english {
+		margin-left: 41px;
+	}
+
+	.btn-info {
+		width: 90px;
+		height: 35px;
+		font-size: 16px;
+	}
+
+	.btn-writing {
+		width: 90px;
+		height: 35px;
+		font-size: 18px;
+	}
+
+	#modal-qna .modal-title {
+		font-size: 18px;
+	}
+
+	#modal-qna .modal-body {
+		font-size: 18px;
+	}
+
+	#modal-notice .modal-title {
+		font-size: 18px;
+	}
+
+	#modal-notice .modal-body {
+		font-size: 18px;
+	}
+
+	.btn-modal-qna {
+		font-size: 15px;
+		font-weight: 500;
+		width: 90px;
+		height: 35px;
+		border: solid 1px #979797;
+		margin: 0px 5px;
+	}
+
+	.glyphicon {
+    	display: inline;
+    	float: right;
+    	padding: 0;
+    	margin: 0;
+    	line-height: 60px;
+	}
+
+	.cs-item {
+		font-size: 16px;
+	}
+    
+	.cs-notice-title {
+		width: 78%;
+		padding: 0px 0px 0px 10px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.cs-notice-header {
+		width: 22%;
+		padding: 20px 0px 20px 5px;
+	}
+    
+	.cs-faq-title {
+		display: inline-block;
+		padding: 0px 0px 0px 10px;
+		width: 72%;
+		vertical-align: middle;
+	}
+
+	.cs-faq-header {
+		padding: 20px 0px 20px 5px;
+		width: 22%;
+	}
+
+	.cs-faq-answer-header {
+		padding: 0;
+	}
+
+	.cs-faq-answer-message {
+		padding : 0;
+	}
+   
+	.cs-qna-title {
+		width: 72%;
+		display: inline-block;
+		padding: 0px 0px 0px 10px;
+		vertical-align: middle;
+	}
+
+	.cs-qna-header {
+		width: 22%;
+		padding: 20px 0px 20px 5px;
+	}
+
+	.cs-qna-answer-header {
+		padding: 0;
+	}
+    
+	.cs-qna-answer-message {
+		padding : 0;
+	}
+    
+
+	.contact-company-name-and-address{
+		font-size: 16px;
+		text-align: left;
+	}
+
+	.contact-info-detail{
+	 	font-size: 16px;
+	}
+
+	.col-xxs-6 {
+		width: 50%;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	.col-xxs-12 {
+		float: none;
+		width: 100%;
+		padding-left: 0px;
+	}
+}
+
+@media all and (max-width: 383px) {
+
+	.btn-info {
+		width: 28%
+	}
+}
+
+@media all and (max-width: 360px) { 
+	.download-btn-googleplay{
+		margin-top: 240px;
+	}
+
+	.contact-info-detail{
+	 	font-size: 15px;
+	}
+}
+
+@media all and (max-width: 340px) { 
+	.download-btn-googleplay{
+		margin-top: 220px;
+	}
+	.dialog-sub {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.btn-info {
+		height: 35px;
+		font-size: 12px;
+	}
+
+	.btn-writing {
+		width: 70px;
+		height: 35px;
+		font-size: 15px;
+	}
+
+}
